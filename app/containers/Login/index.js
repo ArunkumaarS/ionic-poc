@@ -33,7 +33,6 @@ export class Login extends Component {
 
   submitMobileNumber() {
     this.props.submitMobileNumber({mobile:this.props.login.loginForm.mobileNumber.value})
-  });
   }
 
   render() {
@@ -49,7 +48,7 @@ export class Login extends Component {
 
 const mapStateToProps = createStructuredSelector({
   login: makeSelectLogin(),
-});
+})
 
 function mapDispatchToProps(dispatch) {
   return {

@@ -1,0 +1,9 @@
+{
+    "appId": "com.tryllo.alpha",
+    "appName": "alpha-ionic",
+    "bundledWebRuntime": false,
+    "npmClient": "npm",
+    "webDir": "build",
+    "cordova": {},
+    "linuxAndroidStudioPath": "/home/arunkumaar/Arun/Tryllo/android-studio/bin/studio.sh"
+}
