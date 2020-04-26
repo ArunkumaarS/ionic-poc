@@ -87,3 +87,4 @@ The coverage report can be found in `./Coverage/lcov-report/index.html`
 
 ![Alt Text](https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif)
 
+# alpha-ionic
