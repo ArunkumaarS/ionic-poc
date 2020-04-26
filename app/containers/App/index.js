@@ -13,16 +13,15 @@ import LoginPage from 'containers/Login/Loadable';
 import FeaturePage from 'containers/FeaturePage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 
-
 export default function App() {
-    return (
-      <div>
-        <Switch>
-            <Route exact path="/" component={LoginPage} />
-            <Route exact path="/login" component={LoginPage} />
-            <Route exact path="/home" component={FeaturePage} />
-            <Route component={NotFoundPage} />
-        </Switch>
-      </div>
-    );
-  }
+  return (
+    <div>
+      <Switch>
+        <Route exact path="/" component={LoginPage} />
+        <Route exact path="/login" component={LoginPage} />
+        <Route exact path="/home" component={FeaturePage} />
+        <Route component={NotFoundPage} />
+      </Switch>
+    </div>
+  );
+}

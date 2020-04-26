@@ -4,23 +4,21 @@ import initialJSState from './initialState';
 /**
  * Direct selector to the login state domain
  */
-const selectLoginDomain = (state) => state.login || initialJSState;
+const selectLoginDomain = state => state.login || initialJSState;
 
 /**
  * Other specific selectors
  */
 
-
 /**
  * Default selector used by Login
  */
 
-const makeSelectLogin = () => createSelector(
-  selectLoginDomain,
-  (substate) => substate.toJS()
-);
+const makeSelectLogin = () =>
+  createSelector(
+    selectLoginDomain,
+    substate => substate.toJS(),
+  );
 
 export default makeSelectLogin;
-export {
-  selectLoginDomain,
-};
+export { selectLoginDomain };

@@ -18,7 +18,8 @@ export default defineMessages({
   },
   loanPdfAgreeMsg: {
     id: `${scope}.loan_pdf_agree_msg`,
-    defaultMessage: 'These Standard Terms & Conditions along with the Most Important Terms and Conditions form a legal and binding agreement upon acceptance pursuant to the Indian Contract Act, 1872 and the Information Technology Act, 2000.',
+    defaultMessage:
+      'These Standard Terms & Conditions along with the Most Important Terms and Conditions form a legal and binding agreement upon acceptance pursuant to the Indian Contract Act, 1872 and the Information Technology Act, 2000.',
   },
   loanPdfBtn: {
     id: `${scope}.loan_pdf_btn`,
@@ -46,7 +47,8 @@ export default defineMessages({
   },
   emiDebitAlert: {
     id: `${scope}.emi_debit_alert`,
-    defaultMessage: 'Your EMI will be auto debited from your account on the Due Date',
+    defaultMessage:
+      'Your EMI will be auto debited from your account on the Due Date',
   },
   processingMsg: {
     id: `${scope}.processing_msg`,
@@ -74,7 +76,8 @@ export default defineMessages({
   },
   nachAutoDebitMsg: {
     id: `${scope}.nach_auto_debit_msg`,
-    defaultMessage: 'Your EMI will be auto debited from your account on the Due Date.',
+    defaultMessage:
+      'Your EMI will be auto debited from your account on the Due Date.',
   },
   processingMsgWithoutAutoDebit: {
     id: `${scope}.processing_msg_without_auto_debit`,
