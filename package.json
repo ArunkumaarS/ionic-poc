@@ -70,7 +70,7 @@
         "@capacitor/core": "^2.0.1",
         "@ionic/core": "^5.0.7",
         "@ionic/react": "^5.0.7",
-        "axios": "^0.17.1",
+        "axios": "^0.19.2",
         "axios-retry": "^3.0.2",
         "chalk": "2.4.2",
         "compression": "1.7.4",
