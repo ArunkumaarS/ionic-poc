@@ -48,7 +48,7 @@ const LoginScreen = props => {
                 </LoginInputDiv>
                 <LoginTruecaller>
                     <span>
-                        or Login with
+                        or sigin with
                         <img src={TruecallerLogo} alt="truecaller logo"/>
                     </span>
                 </LoginTruecaller>
